@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--Tools > Sublime Server >for Sublime Server  http://localhost:8080/       -->
+		<script src="http://livejs.com/live.js"></script>
+
+		<!-- Meta Tags -->
+		<meta charset="UTF-8">
+		<title>FizzBuzz App</title>
+
+		<!-- Stylesheets -->
+		<link href="css/style.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<section>
+			<h1>FizzBuzz: Challenge</h1>
+			<h3>Please enter a positive, non-decimal number</h3>
+			<form>
+				<input type="text" name="userGuess" id="userGuess" class="text" maxlength="3" autocomplete="off" placeholder="Enter number here" required />
+				<input type="submit" name="submit" id="guessButton" class="button" value="Submit"/>
+			</form>
+			<button id="clear" type="button" name="button">Clear All</button>
+  			<ul id="fizz"></ul>
+		</section>
+
+		<!-- JavaScript & jQuery -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/jquery-2.1.4.min.js">\x3C/script>')</script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>
